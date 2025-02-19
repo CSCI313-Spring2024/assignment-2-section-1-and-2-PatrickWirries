@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home Page</title>
+    <link href="css/web_styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    
+</head>
+<body>
+  
+    
+<!--Header-->
+<header>
+    <!--Navbar-->
+    <nav class="navbar navbar-light bg-info">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Home</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav> 
+</header>
+
+<!--Main-->
+<main>
+
+    <!--Grid-->
+    <div class="container-fluid my-5 " id="GridTextBox">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-md-6">
+                <h3 style="font-weight:bold">A Little More About Me</h3>
+                <p>I grew up in a family of five, being the youngest of my siblings. My older brother Lawrence has always been faster, stronger, and smarter than I am. He's currently
+                    at seminary to become a catholic priest. My oldest sibling is my sister Caroline. She has always been more book-smart, but can't think as fast under pressure. The 
+                    three of us used to love spending time together outside from swimming in the hot summers to sledding in the cold winters.</p>
+
+                <p>Growing up, I tried and practicied many different hobbies and sports to find my interests and my talents. I played basketball, golf, baseball, swimming, gymnastics,
+                    but I certianly never excelled in any of these. They were fun but everyone I played with was always better. When I tried ice skating, I never could stand away from the wall 
+                    without falling down. It wasn't until I played video games til I found my specialties. I was a natural at my age, with hand-eye coordination and quick reaction time, 
+                    I finally found something I could win at against my friends and family. I think that's the beginning factor into why I love computer science now.</p>
+
+                    <p>
+                    Now that I'm at university, I've started learning to develop code to run my own projects. I've enjoyed learning to use a variety of coding languages for various tasks, each
+                    with their own unique structure and formats. Coding is hard, and it takes me longer than I expected to become specialized with; to me, coding is like a game: developing pieces
+                    and structures to claim that victory, to create something new, something useful. 
+                </p> 
+            </div>
+            <div class="col-md-2">
+                <h3 style="font-weight:bold">Hobbies</h3>
+                <ol>
+                    <li>Hanging out with friends/family</li><br>
+                    <li>Disc golf</li><br>
+                    <li>Riding my motorcycle</li><br>
+                    <li>Playing video games</li><br>
+                    <li>Coding</li><br>
+                </ol>
+            </div>
+            <div class="col-md-2">
+                <h3 style="font-weight:bold;">Favorite Movies</h3>
+                <ul>
+                    <li>Castle in the Sky -> Studio Ghibli</li><br>
+                    <li>Howls' Moving Castle -> Studio Ghibli</li><br>
+                    <li>Elementals -> Disney</li><br>
+                    <li>Moana 1 & 2 -> Disney</li><br>
+                    <li>White House Down -> Directed by Roland Emmerich </li><br>
+                </ul>
+            </div>
+            <div class="col-sm-1">
+        </div>
+    </div>
+    <br>
+    <h2 id="ScheduleHeader">My Weekly Schedule</h2>
+    <!-- Table for daily schedule-->
+     <div class="table-responsive">
+    <table class ="table table-bordered table-sm">
+        <!--Table header values/color-->
+        <thead class="thead-dark">
+        <tr>
+            <th></th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tueday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+            <th scope="col">Friday</th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row"></th>
+         <td class="bg-success">Work<br>5 AM - 9 AM</td>
+         <td class="bg-success">Work<br>5 AM - 10 AM</td>
+         <td class="bg-success">Work<br>5 AM - 9 AM</td>
+         <td class="bg-success">Work<br>5 AM - 10 AM</td>
+         <td class="bg-success">Work<br> 5 AM - 9 AM</td>
+         <td class="bg-primary">Get ready for the day<br>10 AM</td>
+         <td class="bg-primary">Get ready for the day<br>10 AM</td>
+        </tr>
+        <tr>
+        <th scope="row"></th>
+        <td class="bg-danger">Class<br>10 AM - 3 PM</td>
+        <td class="bg-danger">Class<br>11 AM - 1230 PM</td>
+        <td class="bg-danger">Class<br>10 AM - 3 PM</td>
+        <td class="bg-danger">Class<br>11 AM - 1230 PM</td>
+        <td class="bg-danger">Class<br>10 AM - 3 PM</td>
+        <td class="bg-warning">Any leftover homework<br>x - 2 PM</td>
+        <td class="bg-warning">Any leftover homework<br>x - 2 PM</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td class="bg-warning">Homework<br>4 PM - 6 PM</td>
+            <td class="bg-warning">Homework<br>2 PM - 5 PM</td>
+            <td class="bg-warning">Homework<br>4 PM - 6 PM</td>
+            <td class="bg-warning">Homework<br>2 PM - 5 PM</td>
+            <td class="bg-warning">Homework<br>4 PM - 6 PM</td>
+            <td class="bg-info">Have fun/explore a hobby<br> x - 6 PM</td>
+            <td class="bg-info">Have fun/explore a hobby<br> x - 6 PM</td>
+        </tr>
+        <tr>
+        <th scope="row">
+            <td class="bg-light">Dinner<br>6 PM</td>
+            <td class="bg-light">Dinner<br>6 PM</td>
+            <td class="bg-light">Dinner<br>6 PM</td>
+            <td class="bg-light">Dinner<br>6 PM</td>
+            <td class="bg-light">Dinner<br>6 PM</td>
+            <td class="bg-light">Dinner<br>6 PM</td>
+            <td class="bg-light">Dinner<br>6 PM</td>
+        </th>
+        </tr>
+        <tr>
+        <th scope="row"></th>
+        <td class="bg-info">Relaxation/Leisure<br> x - 10PM </td>
+        <td class="bg-info">Relaxation/Leisure<br> x - 10PM </td>
+        <td class="bg-info">Relaxation/Leisure<br> x - 10PM </td>
+        <td class="bg-info">Relaxation/Leisure<br> x - 10PM </td>
+        <td class="bg-info">Relaxtaion/Leisure<br> x - 12 AM</td>
+        <td class="bg-info">Relaxation/Leisure<br> x - 12 AM </td>
+        <td class="bg-info">Relaxtion/Leisure<br>x- - 10 AM</td>
+        </tr>
+    </tbody>
+    </table>
+    </div>
+
+</main>
+
+<!--Footer-->
+<footer>
+    <div class="container-fluid bg-info footer-site">
+    <p class="text-center">Copyrighted. Wirries; 2025</p>
+    </div>
+    </footer>
+
+
+    </body>

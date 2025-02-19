@@ -1,0 +1,110 @@
+/* Reset margins*/
+body{
+    margin:0;
+    padding:0;
+    font-size:20px;
+}
+
+/* Force navbar bottom to 0 */
+.navbar{
+    margin-bottom:0;  
+}
+
+/*Merge hero with navbar */
+#HomeHero{
+    margin-top:-20px;
+    text-align:center;
+    font-weight:bold;
+    padding-bottom: 3em;
+    margin-bottom:3em;
+    display: block;
+    height: auto;
+    overflow: hidden;
+    padding-top: 0px; 
+    top:0;
+}
+
+/* Photo of me on Home Page*/
+#selfie{
+    max-width: 700px;
+    max-height: 600px;
+    margin-left: 15%;
+    margin-right: auto;
+}
+
+
+/*Weekly schedule header styles */
+#ScheduleHeader{
+    text-align:center;
+    margin-top:2em;
+    font-weight:bold;
+}
+
+/* Contact form styles */
+#contactform{
+    display:block;
+    height: auto;
+    overflow: hidden;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:2px;
+    border-color:black;
+    h1{
+        text-align:center;
+        font-size:40px;
+    
+    }
+    #fname{
+        font-size:15px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    #lname{
+        font-size:15px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    #email{
+        font-size:15px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    #message{
+        font-size:15px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .input-mysize{
+        width:30em;
+        height:10em;
+    }
+}
+
+/* Project: Krolo */
+#krolo{
+    max-width: 40%;
+    max-height:40%;
+    padding-left:10%;
+    padding-top:10px;
+}
+.krolo-grid{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+/*All Footer Styles */
+.footer-site{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+/* Confirmation results page styles*/
+.confirmation-ss{
+    margin-top:40px;
+    margin-bottom:40px;
+    max-width: 40%;
+    max-height:50%;
+    padding-left:10%;
+    padding-top:10px;
+}
